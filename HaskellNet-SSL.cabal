@@ -37,6 +37,7 @@ library
                        tls >= 1.2,
                        connection >= 0.2.7,
                        network >= 2.4,
+                       network-bsd >= 2.8.1.0,
                        bytestring,
                        data-default
   else
@@ -45,5 +46,6 @@ library
                        tls >= 1.2 && < 1.5,
                        connection >= 0.2.7 && < 0.3,
                        network >= 2.4 && < 2.9,
+                       network-bsd >= 2.8.1.0 && < 2.9,
                        bytestring,
                        data-default
